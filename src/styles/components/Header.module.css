@@ -1,13 +1,17 @@
 .container { 
-  background: #333333;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.13);
   position: sticky;
   top: 0;
   width: 100%;
   z-index: 999;
+
+  -webkit-backdrop-filter: saturate(100%) blur(16px);
+  backdrop-filter: saturate(100%) blur(10px);
+  background-color: rgba(11,11,15,.5);
 }
 
 .logo img {
@@ -22,7 +26,6 @@
 .menuList li {
   padding: 1.3rem 1rem;
   font-family: 'Poppins', sans-serif;
-  /* transition: all 0.8s ease; */
 }
 
 .menuList li a {

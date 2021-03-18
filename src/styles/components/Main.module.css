@@ -14,7 +14,7 @@
 }
 
 .container h1 span {
-  color: #E4002B;
+  color: #e4002b;
 }
 
 .arrowLink {
@@ -24,7 +24,7 @@
   font-size: 0.8rem;
   margin-top: 20px;
   color: #9b9b9b;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .arrowdown {
@@ -32,24 +32,48 @@
   margin-bottom: 20px;
   opacity: 0.5;
   -webkit-animation: move_down 2s ease-in-out infinite;
-  -moz-animation:    move_down 2s ease-in-out infinite;
-  animation:         move_down 2s ease-in-out infinite;
+  -moz-animation: move_down 2s ease-in-out infinite;
+  animation: move_down 2s ease-in-out infinite;
 }
 
 @-webkit-keyframes move_down {
-  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+  0% {
+    -webkit-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
 }
 
 @-moz-keyframes move_down {
-  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -moz-transform:translate(0,20px); opacity: 0; }
+  0% {
+    -moz-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: translate(0, 20px);
+    opacity: 0;
+  }
 }
 
 @keyframes move_down {
-  0%   { transform:translate(0,-20px); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { transform:translate(0,20px); opacity: 0; }
+  0% {
+    transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
 }
