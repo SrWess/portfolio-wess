@@ -1,8 +1,8 @@
 .containerCard {
   width: 85%;
-  height: 55%;
+  height: 350px;
 
-  margin: 0 auto;
+  margin: 0 auto 50px;
 
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@
 }
 
 .cardImage {
-  background-color: #505050;
+  background: center / cover no-repeat url("https://cdn.dribbble.com/users/482016/screenshots/15301126/media/b2568b3579afd0448411c73bbfda9b26.jpg");
 
   height: 100%;
   width: 50%;
@@ -25,7 +25,7 @@
 
 .cardInfo {
   background-color: #3C3C3C;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.15);
 
   display: flex;
   flex-direction: column;
@@ -61,6 +61,11 @@
   align-items: center;
   margin-bottom: 22px;
   font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.cardInfo a:hover {
+ filter: brightness(70%);
 }
 
 .cardInfo a img {
@@ -71,10 +76,12 @@
 .skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills span {
-  width: 110px;
+  width: 25%;
 
   background-color: #2e2e2e;
   border-radius: 20px;
@@ -85,4 +92,13 @@
   margin: 0px 10px 10px 0px;
 
   padding: 0.2rem;
+
+  cursor: initial;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.skills span:hover {
+  background-color: #E4002B;
+
 }

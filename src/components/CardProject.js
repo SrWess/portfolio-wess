@@ -1,30 +1,29 @@
 import styles from "../styles/components/CardProject.module.css";
 
-export function CardProject() {
+export function CardProject({ title, description, listSkill }) {
   return (
     <div className={styles.containerCard}>
-      <div className={styles.cardImage}>
-        <span>Imagem Card</span>
+      <div className={styles.cardImage}> 
+      
       </div>
 
       <div className={styles.cardInfo}>
-        <h3>Title Card</h3>
+        <h3>{title}</h3>
 
         <p>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit.
+          {description}
         </p>
 
         <a href="#">
-          View Project <img src="/icons/arrow-right.svg" alt="" srcset="" />
+          View Project <img src="/icons/arrow-right.svg" alt="Ver Projeto"/>
         </a>
 
         <div className={styles.skills}>
-          <span>Skill</span>
-          <span>Skill</span>
-          <span>Skill</span>
-          <span>Skill</span>
-          <span>Skill</span>
+          {
+            listSkill.map((skill) => {
+              return <span key={skill}>{ skill }</span>;
+            })
+          }
         </div>
       </div>
     </div>

@@ -1,4 +1,12 @@
 .container {
   background: #282828;
-  height: 600px;
+    
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 {
+  font-size: 2.1rem;
+  margin: 50px auto 30px;
+  width: 90%;
 }

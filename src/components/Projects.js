@@ -6,7 +6,19 @@ export function Projects() {
     <section className={styles.container}>
       <h2>Projetos</h2>
 
-      <CardProject/>
+      <CardProject
+        title="Project One"
+        description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit."
+        listSkill={[
+          "JavaScript",
+          "TypeScript",
+          "Nodejs",
+          "Styled Component",
+          "ReactJs",
+          "PostgreSQL",
+        ]}
+      />
     </section>
-  )
+  );
 }
