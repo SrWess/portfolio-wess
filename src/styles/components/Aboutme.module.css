@@ -1,0 +1,98 @@
+.container {
+  background: #1D1D1D;
+    
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 {
+  font-size: 2.1rem;
+  margin: 50px auto 30px;
+  width: 90%;
+}
+
+.container > div {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.description p {
+  color: #C2C2C2;
+  line-height: 150%;
+}
+
+.social {
+  margin-top: 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #393939;
+}
+
+.social a {
+  margin-right: 50px;
+}
+
+.social a:hover {
+  filter: brightness(60%);
+}
+
+.social a img {
+  width: 25px;
+}
+
+.skillContainer {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 50px;
+}
+
+.skillContainer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 35px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+
+  width: 90%;
+
+  margin: 0 auto;
+}
+
+.skills div + div,
+.others section + section {
+  margin-left: 40px;
+}
+
+.skillfront,
+.skillback {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.othersContainer {
+  width: 90%;
+
+  margin: 40px auto;
+}
+
+.othersContainer > h4 {
+  font-size: 1.3rem;
+}
+
+.others {
+  display: flex;
+
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.others section {
+  display: flex;
+  flex-direction: column;
+
+  width: 40%;
+}

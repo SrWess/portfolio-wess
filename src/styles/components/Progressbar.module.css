@@ -1,0 +1,35 @@
+.title {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 5px;
+}
+
+.progress {
+  background: #353535;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 355px;
+  height: 5px;
+
+  border-radius: 5px;
+
+  margin-bottom: 20px;
+}
+
+.progressValue {
+  /* animation: load 3s normal forwards; */
+
+  background-color: #E4002B;
+
+  width: 0px;
+  height: 5px;
+
+  border-radius: 5px;
+}
+
+/* @keyframes load {
+  0% { width: 0; }
+  100% { width: 100%; }
+} */

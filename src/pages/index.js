@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Aboutme } from '../components/Aboutme'
 import { Header } from '../components/Header'
 import { Main } from '../components/Main'
 import { Projects } from '../components/Projects'
@@ -14,6 +15,7 @@ export default function Home() {
       <Header/>
       <Main/>
       <Projects/>
+      <Aboutme/>
     </div>
   )
 }
