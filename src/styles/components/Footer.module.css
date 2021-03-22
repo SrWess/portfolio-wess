@@ -1,0 +1,87 @@
+.footer {
+  background-color: #161616;
+}
+
+.footer > div {
+  display: flex;
+  justify-content: space-around;
+
+  width: 80%;
+
+  margin: 0 auto;
+
+  padding: 2rem;
+}
+
+.email, 
+.social, 
+.resume {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.email > p,
+.social > p,
+.resume > p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.email div { 
+  display: flex;
+  align-items: center;
+}
+
+.email div p,
+.social a,
+.resume a {
+  color: #ABABAB;
+  font-size: 0.9rem;
+
+  transition: color 0.3s ease-in-out;
+}
+
+.social a:hover,
+.resume a:hover {
+  color: #E4002B;
+  font-weight: bold;
+}
+
+.social a + a {
+  margin-top: 10px;
+}
+
+.email div button {
+  margin-left: 10px;
+
+  background-color: #070707;
+  color: #FFF;
+
+  font-size: 0.85rem;
+  font-family: 'Poppins', sans-serif;
+
+  padding: 0.4rem;
+
+  border-radius: 5px;
+  border: 1px solid #040404;
+
+  display: flex;
+  align-items: center;
+
+  transition: background-color 0.2s ease-in;
+}
+
+.email div button::before {
+  content: url('/icons/copy.svg');
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.email button:hover {
+  background: #636363;
+  border: 1px solid #161616;
+}

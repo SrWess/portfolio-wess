@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Aboutme } from '../components/Aboutme'
+import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { Main } from '../components/Main'
 import { Projects } from '../components/Projects'
@@ -16,6 +17,7 @@ export default function Home() {
       <Main/>
       <Projects/>
       <Aboutme/>
+      <Footer/>
     </div>
   )
 }
