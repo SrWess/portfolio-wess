@@ -14,7 +14,7 @@ export function Projects() {
           "JavaScript",
           "TypeScript",
           "Nodejs",
-          "Styled Component",
+          "Docker",
           "ReactJs",
           "PostgreSQL",
         ]}
